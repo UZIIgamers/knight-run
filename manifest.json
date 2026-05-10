@@ -2,7 +2,7 @@
   "name": "Knight Run",
   "short_name": "KnightRun",
   "description": "Medieval fantasy endless runner game",
-  "start_url": "/knightrun/",
+  "start_url": "/knight-run/",
   "display": "fullscreen",
   "background_color": "#0a0520",
   "theme_color": "#aa44ff",

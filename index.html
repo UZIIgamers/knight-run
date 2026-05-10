@@ -18,9 +18,8 @@ canvas{display:block;touch-action:none;}
 <script>
 const cv=document.getElementById('c');
 const cx=cv.getContext('2d');
-const W=cv.width=Math.min(window.innerWidth,400);
-const H=cv.height=Math.min(window.innerHeight,700);
-
+const W=cv.width=window.innerWidth;
+const H=cv.height=window.innerHeight;
 // Perspective setup
 const VPX=W/2,VPY=H*0.30;
 const BOT_Y=H*0.88;

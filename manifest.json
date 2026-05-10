@@ -1,0 +1,23 @@
+{
+  "name": "Knight Run",
+  "short_name": "KnightRun",
+  "description": "Medieval fantasy endless runner game",
+  "start_url": "/knightrun/",
+  "display": "fullscreen",
+  "background_color": "#0a0520",
+  "theme_color": "#aa44ff",
+  "orientation": "portrait",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "launchericon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "launchericon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -61,9 +61,10 @@ scene.background=new THREE.Color(0x050315);
 const camera=new THREE.PerspectiveCamera(75,W/H,0.1,150);
 camera.position.set(0,6,11);camera.lookAt(0,1,-10);
 const renderer=new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(window.innerWidth,window.innerHeight);
 renderer.setPixelRatio(1);
 renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
-renderer.domElement.style.cssText='position:fixed;top:0;left:0;z-index:1;';
+renderer.domElement.style.cssText='position:fixed;top:0;left:0;z-index:1;width:100%!important;height:100%!important;';
 document.body.insertBefore(renderer.domElement,hud);
 
 // Lights
